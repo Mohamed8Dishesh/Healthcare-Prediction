@@ -16,7 +16,7 @@ encoder_insurance = LabelEncoder().fit(insurance_options)
 encoder_admission = LabelEncoder().fit(admission_options)
 encoder_medication = LabelEncoder().fit(medication_options)
 
-st.set_page_config(page_title="Healthcare Prediction App", page_icon="🔬", layout="centered")
+st.set_page_config(page_title="Healthcare Prediction App 🤖", page_icon="🤖", layout="centered")
 
 
 st.title("Healthcare Prediction App")
