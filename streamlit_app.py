@@ -16,26 +16,6 @@ encoder_insurance = LabelEncoder().fit(insurance_options)
 encoder_admission = LabelEncoder().fit(admission_options)
 encoder_medication = LabelEncoder().fit(medication_options)
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background-color: black;
-        color: white;
-    }
-    .sidebar .sidebar-content {
-        background-color: #333;
-    }
-    .stButton>button {
-        background-color: #444;
-        color: white;
-    }
-    .stSlider>div>div>div {
-        background-color: #444;
-        color: white;
-    }
-    </style>
-    """, unsafe_allow_html=True)
 
 st.set_page_config(page_title="Healthcare Prediction App 🤖", page_icon="🤖", layout="centered")
 
