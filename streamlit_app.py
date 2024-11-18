@@ -22,8 +22,6 @@ encoder_medication = LabelEncoder().fit(medication_options)
 # إعداد التطبيق
 st.set_page_config(page_title="Healthcare Prediction App", page_icon="🔬", layout="centered")
 
-# إضافة صورة أو شعار أعلى الصفحة
-st.image("https://www.taazaa.com/wp-content/uploads/2024/06/Healthcare-AI-Trends-in-2023.png/150", width=150)  # قم بتعديل الرابط إلى رابط الصورة المطلوبة
 
 # العنوان الرئيسي
 st.title("Healthcare Prediction App")
@@ -64,4 +62,4 @@ if st.button("Predict Test Result"):
 
 # إضافة بعض النصائح للمستخدم
 st.markdown("---")
-st.markdown("**Note:** The test result is based on the input data. It is always recommended to consult a healthcare professional for a detailed diagnosis.")
+st.markdown("The test result is based on the input data. It is always recommended to consult a healthcare professional for a detailed diagnosis.")
