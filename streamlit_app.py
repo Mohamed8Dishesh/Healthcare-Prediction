@@ -5,7 +5,7 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 # تحميل النموذج المدرب
-model = joblib.load('path_to_your_model_file.joblib')
+model = joblib.load('healthcare_model.joblib')
 
 # قائمة الخيارات المختلفة
 gender_options = ['Female', 'Male']
