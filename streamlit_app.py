@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import LabelEncoder
 
-model = joblib.load(r'D:\Unique_Interns\Proj2_Healthcare_Diagnosis_Prediction.joblib')
+model = joblib.load(r'healthcare_model.joblib')
 
 gender_options = ['Female', 'Male']
 insurance_options = ['Medicare', 'UnitedHealthcare', 'Aetna', 'Cigna', 'Blue Cross']
